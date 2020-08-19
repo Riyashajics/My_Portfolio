@@ -1,0 +1,216 @@
+html{
+    box-sizing: border-box;
+}
+*,*:before,*after{
+    box-sizing: inherit;
+}
+.Projects{
+background: #F9AE33;
+;
+}
+.intro{
+    background: #058fb2;
+}
+.work{
+    background: #47c7eb;
+}
+.education{
+    background: #c8d9cd;
+}
+.contact{
+    background: #527e4b;
+}
+.cintro{
+    width:900px;
+    margin: 0 auto;
+    padding:110px 0;
+    text-align: center;
+}
+.sprojects{
+    width:900px;
+    margin: 0 auto;
+    padding:100px ;
+ 
+    
+}
+.swork{
+    width:900px;
+    margin: 0 auto;
+    padding:100px; 
+}
+.scon{
+    width:900px;
+    margin: 0 auto;
+    padding:100px; 
+}
+.scon li{
+    list-style-type: none;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+}
+.scon a{
+    padding:15px;
+    display:inline;
+}
+.sedu{
+    width:900px;
+    margin: 0 auto;
+    padding:100px; 
+}
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-family: 'Meddon', cursive;
+    font-size: 70px;
+    color:white;
+}
+.cintro h2{
+    font-family: 'Meddon', cursive;
+    font-size: 40px;
+    color:white;
+}
+.cintro p{
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    font-size: 25px;
+}
+.sprojects h2,h3{
+    font-family: 'Meddon', cursive;
+    font-size: 40px;
+    color:rgb(29, 7, 126);
+  
+}
+.sprojects h2{
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+.sprojects img{
+    float:left;
+    margin-right: 35px;
+    
+}
+.sprojects p{
+    color:rgb(29, 7, 126);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 15px;;
+
+}
+.sprojects section{
+    overflow: hidden;
+}
+
+.swork h2{
+    font-family: 'Meddon', cursive;
+    font-size: 40px;
+    
+}
+.swork h3{
+    font-family: 'Raleway', sans-serif;
+   color:white;
+    font-size: 25px;
+    font-weight: 900;
+}
+.swork h4{
+    font-family: 'Raleway', sans-serif;
+   color:white;
+    font-size: 22px;
+    font-weight: 900;
+}
+.swork {
+    color:white;
+    font-size: 20px;
+    
+
+}
+.swork a:link{
+    color: pink;
+}
+.swork a:visited{
+    color: palevioletred;
+}
+.swork li{
+    margin-top: 7px;
+}
+
+.swork a:hover{
+    color:blueviolet;
+}
+.work_section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 90px;
+}
+.scon{
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    font-size: 25px;
+}
+.scon h2{
+    font-family: 'Meddon', cursive;
+
+}
+.scon a:link{
+    color:gold;
+}
+.scon a:visited{
+    color:white;
+}
+.scon a:hover{
+    color:silver;
+}
+
+.sedu h2{
+    color:white;
+    font-family: 'Meddon', cursive;
+    font-size:40px ;
+    color:#00539cff;
+
+}
+.sedu h3{
+  
+    font-family: 'Raleway', sans-serif;
+    font-size:20px ;
+    color:#00539cff;
+    font-weight: 800;
+
+}
+
+.sedu {
+
+    font-family: 'Raleway', sans-serif;
+    padding:50px;
+    font-weight: 900;
+    object-fit: cover;
+}
+.sedu section {
+    padding:10px;
+}
+.sedu p{
+    padding:5px;
+    color:#00539cff;
+    font-weight: bolder;
+}
+.education{
+    background-image: url(../Images/pencil.jpg);
+    background-size: cover;
+   
+    background-position: top right;
+    height:auto;
+}
+.projects{
+    border-bottom: 2px dashed black;
+    padding-bottom: 60px;
+}
+.Projects h3{
+    padding-top: 1d 0px;
+}
+.sedu h3+p{
+    font-style: italic;
+}
